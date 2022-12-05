@@ -98,29 +98,29 @@ body {
 }
 
 .one {
-  background-image: url("/img/arcane1.jpg");
+  background-image: url("arcane1.jpg");
 }
 
 .two {
-  background-image: url("/img/arcane2.jpg");
+  background-image: url("arcane2.jpg");
 }
 
 .three {
-  background-image: url("/img/arcane3.jpg");
+  background-image: url("arcane3.jpg");
 }
 
 .four {
-  background-image: url("/img/arcane4.jpg");
+  background-image: url("arcane4.jpg");
 }
 
 .five {
-  background-image: url("/img/arcane5.jpg");
+  background-image: url("arcane5.jpg");
 }
 
 .six {
-  background-image: url("/img/arcane6.jpg");
+  background-image: url("arcane6.jpg");
 }
 
 .seven {
-  background-image: url("/img/arcane7.jpg");
+  background-image: url("arcane7.jpg");
 }
