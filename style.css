@@ -31,6 +31,7 @@ body {
   gap: 3.2rem;
 }
 
+/* MAIN CLASSES */
 .title {
   font-size: 4.8rem;
   letter-spacing: 1.6;
@@ -97,6 +98,7 @@ body {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
+/* IMG CONTENTS */
 .one {
   background-image: url("arcane1.jpg");
 }
