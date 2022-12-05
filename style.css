@@ -1,0 +1,126 @@
+/* ROBOTO */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap");
+
+/* FRIZ QUADRATA */
+@import url("https://fonts.cdnfonts.com/css/friz-quadrata-std");
+
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Friz Quadrata Std", "Roboto", sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f8f9fa;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.title {
+  font-size: 4.8rem;
+  letter-spacing: 1.6;
+  background: linear-gradient(to bottom left, #1098ad, #0b7285);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.images {
+  width: 80vw;
+  background-color: #333;
+  padding: 3.2rem;
+  border-radius: 1.6rem;
+  box-shadow: 0 0.4rem 0.8rem #999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.img {
+  position: relative;
+
+  font-size: 1.6rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 1.2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Width */
+  flex: 25;
+  height: 75vh;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  transition: flex 0.6s ease-in;
+}
+
+.subtitle {
+  top: 0;
+  left: 0;
+  position: absolute;
+
+  font-family: "Roboto";
+  letter-spacing: 1.6;
+  background-color: #0b7285;
+  padding: 0.4rem;
+  border-top-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  width: fit-content;
+  opacity: 0;
+}
+
+.img.active {
+  flex: 125;
+  border: 0.3rem solid #444;
+}
+
+.img.active .subtitle {
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.one {
+  background-image: url("/img/arcane1.jpg");
+}
+
+.two {
+  background-image: url("/img/arcane2.jpg");
+}
+
+.three {
+  background-image: url("/img/arcane3.jpg");
+}
+
+.four {
+  background-image: url("/img/arcane4.jpg");
+}
+
+.five {
+  background-image: url("/img/arcane5.jpg");
+}
+
+.six {
+  background-image: url("/img/arcane6.jpg");
+}
+
+.seven {
+  background-image: url("/img/arcane7.jpg");
+}
