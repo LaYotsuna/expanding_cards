@@ -1,7 +1,6 @@
 "use strict";
 
 const imgs = document.querySelectorAll(".img");
-const body = document.querySelector(".body");
 
 // Func to remove the active class
 const removeActive = function () {
