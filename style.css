@@ -87,6 +87,7 @@ body {
 /* IMG CONTENTS */
 .img.active {
   flex: 125;
+  border: 0.3rem solid #0b7285;
 }
 
 .img.active .subtitle {
