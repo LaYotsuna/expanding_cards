@@ -44,11 +44,7 @@ body {
 
 .images {
   width: 85vw;
-  /* background-color: #333;
-  padding: 3.2rem;
-  border-radius: 1.6rem;
-  box-shadow: 0 0.4rem 0.8rem #999; */
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
