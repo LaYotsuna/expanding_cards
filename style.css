@@ -44,7 +44,11 @@ body {
 
 .images {
   width: 85vw;
-  
+  /*  background-color: #333;
+  padding: 3.2rem;
+  border-radius: 1.6rem;
+  box-shadow: 0 0.4rem 0.8rem #999; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,24 +81,24 @@ body {
   font-family: "Roboto";
   letter-spacing: 1.6;
   background-color: #0b7285;
-  padding: 0.4rem;
-  border-top-left-radius: 0.8rem;
+  padding: 0.6rem;
+  border-top-left-radius: 0.6rem;
   border-bottom-right-radius: 0.8rem;
   width: fit-content;
   opacity: 0;
 }
 
+/* IMG CONTENTS */
 .img.active {
   flex: 125;
-  border: 0.3rem solid #444;
+  border: 0.3rem solid #0b7285;
 }
 
 .img.active .subtitle {
-  opacity: 0.9;
+  opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-/* IMG CONTENTS */
 .one {
   background-image: url("arcane1.jpg");
 }
