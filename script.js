@@ -13,9 +13,16 @@ const removeActive = function () {
 const addActive = function () {
   imgs.forEach((img) =>
     img.addEventListener("click", () => {
-      console.log("Click");
-      removeActive();
-      img.classList.add("active");
+      /* removeActive(); */
+      /* img.classList.add("active"); */
+      /* img.addEventListener("click", () => { */
+      if (img.classList.contains("active")) {
+        img.classList.remove("active");
+      } else {
+        removeActive();
+        img.classList.add("active");
+      }
+      /* }); */
     })
   );
 };
